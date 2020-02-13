@@ -9,20 +9,7 @@ var db;
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true}));
 
-var authors = [
-    {
-        id: 1,
-        name: 'Homer'
-    },
-    {
-        id: 2,
-        name: 'Vladimir'
-    },
-    {
-        id: 3,
-        name: 'Albert'
-    }
-];
+
 
 app.get('/', function (req, res) {
     res.send('Hello API');
